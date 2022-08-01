@@ -1,0 +1,33 @@
+<div class="header">
+  <span>Discover Course & Bootcamp</span>
+  <button>Show All</button>
+</div>
+<div class="btn-group">
+  <button id="all" class="filter selected" (click)="selection($event)">
+    All Program
+  </button>
+  <button id="design" class="filter" (click)="selection($event)">
+    UI/UX Design
+  </button>
+  <button id="product" class="filter" (click)="selection($event)">
+    Product Management
+  </button>
+  <button id="branding" class="filter" (click)="selection($event)">
+    Branding Design
+  </button>
+  <button id="mobile" class="filter" (click)="selection($event)">
+    Mobile Development
+  </button>
+  <button id="web" class="filter" (click)="selection($event)">
+    Web Development
+  </button>
+</div>
+<br />
+<hr />
+<br />
+<div class="flex" *ngIf="filterdCourseList">
+  <ng-container *ngFor="let cours of filterdCourseList">
+    <app-course-card [course]="cours"></app-course-card>
+  </ng-container>
+</div>
+<div class="no-data" *ngIf="!filterdCourseList.length">There Are No Courses Now</div>

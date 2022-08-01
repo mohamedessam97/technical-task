@@ -1,0 +1,34 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  font-family: "Maven Pro";
+
+  h1 {
+    font-size: 68px;
+    line-height: 135%;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+  }
+
+  p{
+    font-size: 20px;
+    margin-top: 55px;
+    margin-bottom: 60px;
+  }
+
+  .text{
+    margin-right: 50px;
+  }
+  .cont{
+    display: flex;
+    gap: 45px;
+  }
+
+  button{
+      background-color: #DC4298;
+      padding: 22px 40px;
+      border: 0px;
+      border-radius: 6px;
+      color: white;
+  }
+}

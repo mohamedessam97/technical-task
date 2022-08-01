@@ -1,0 +1,53 @@
+.card{
+    width: 350px;
+    // height: 460px;   
+    border: 1px solid #ECEFF4;
+    font-family: 'Maven Pro';
+
+    img{
+        max-width: 100%;
+    }
+    .card-body{
+        padding: 15px;
+        line-height: 150%;
+        span{
+            font-size: 14px;
+            color: #777795;
+        }
+
+        h5{
+            font-size: 24px;
+            font-weight: 800;
+            margin: 5px 0px;
+        }
+
+        .info{
+
+            span{
+                font-size: 18px;
+                margin-right: 10px;
+                &:first-child{
+                    font-weight: 700;
+                    color: #DC4298;
+                }
+                &:not(:first-child){
+                    text-decoration: line-through;
+                }
+            }
+
+            button{
+                padding: 9px 30px;
+                border: 1px solid #DC4298;
+                color: #DC4298;
+                background-color: white;
+                border-radius: 8px;
+                margin-left: 110px;
+                cursor: pointer;
+                &:hover{
+                    color: white;
+                    background-color: #DC4298;
+                }
+            }
+        }
+    }
+}

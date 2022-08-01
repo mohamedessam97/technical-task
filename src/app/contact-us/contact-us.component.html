@@ -1,0 +1,17 @@
+<div class="contact">
+    <div>
+        <h2>Still confused about your career choice? consult with our experts</h2>
+        <button id="myBtn" (click)="show($event)">Contact Us</button>
+    </div>
+    <img src="../../assets/images/successful-black-student-girl-using-laptop-learnin-2021-09-14-17-37-12-utc 1.svg" alt="">
+</div>
+
+<div #mymodal class="modal">
+
+    <div class="modal-content">
+      <button class="close" #close (click)="hide($event)">&times;</button>
+      <input type="email" placeholder="Email Address">
+      <button class="btn" (click)="hide($event)">Send</button>
+    </div>
+  
+  </div>

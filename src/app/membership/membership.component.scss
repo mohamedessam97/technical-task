@@ -1,0 +1,42 @@
+.member{
+    
+    display: flex;
+    gap: 100px;
+    font-family: 'Maven Pro';
+
+    h2{
+        font-size: 40px;
+        margin-top: 5px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    .data{
+        position: relative;
+        top: -100px;
+        left: 30px;
+        color: white;
+
+        h3{
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        span{
+            color: #e3e3e3;
+        }
+    }
+    button{
+        background-color: #DC4298;
+        padding: 22px 40px;
+        border: 0px;
+        border-radius: 6px;
+        font-weight: 700;
+        color: white;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+}
